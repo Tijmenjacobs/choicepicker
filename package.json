@@ -2,7 +2,7 @@
   "name": "choice-picker",
   "version": "1.0.0",
   "description": "small project",
-  "main": "script.js",
+  "main": "index.html",
   "scripts": {
     "build": "parcel build index.html"
   },
