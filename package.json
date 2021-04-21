@@ -4,7 +4,7 @@
   "description": "small project",
   "main": "script.js",
   "scripts": {
-    "build": "npm build index.html"
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Tijmenjacobs/choicepicker/issues"
   },
-  "homepage": "https://github.com/Tijmenjacobs/choicepicker#readme"
+  "homepage": "https://github.com/Tijmenjacobs/choicepicker#readme",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
 }
