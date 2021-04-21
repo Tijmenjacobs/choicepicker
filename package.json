@@ -1,0 +1,19 @@
+{
+  "name": "choice-picker",
+  "version": "1.0.0",
+  "description": "small project",
+  "main": "script.js",
+  "scripts": {
+    "build": "npm build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tijmenjacobs/choicepicker.git"
+  },
+  "author": "Tijmen Jacobs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tijmenjacobs/choicepicker/issues"
+  },
+  "homepage": "https://github.com/Tijmenjacobs/choicepicker#readme"
+}
