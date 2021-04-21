@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Code+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="bg">
+        <div class="choice-picker">
+          <h1>Choice Picker</h1>
+          <h3>Divide your choices with a comma (',')</h3>
+          <h3>Press enter for the magic</h3>
+          <textarea
+            placeholder="Enter your choices here..."
+            id="textarea"
+          ></textarea>
+          <div id="tags"></div>
+          <p id="answer">Answer Here!</p>
+        </div>
+
+        <div class="joke-simulator">
+          <h1>Joke simulator</h1>
+          <div class="joke" id="joke">Joke Goes Here!</div>
+          <button id="joke-btn" class="joke-btn">Get another joke!</button>
+        </div>
+      </div>
+      <div class="circle circle-1"></div>
+      <div class="circle circle-2"></div>
+    </main>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
