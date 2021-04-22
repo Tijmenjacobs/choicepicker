@@ -41,6 +41,11 @@ h3 {
   font-size: 2.618rem;
 }
 
+p {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -66,6 +71,7 @@ h3 {
   backdrop-filter: blur(2rem);
   width: 80%;
   height: 80%;
+  max-height: 120rem;
   border-radius: 5px;
   z-index: 2;
   padding: 2rem 0;
@@ -105,6 +111,7 @@ h3 {
 /* Choice Picker */
 
 .choice-picker {
+  height: 50%;
   width: 100%;
   text-align: center;
 }
@@ -157,6 +164,7 @@ h3 {
 
 .joke-simulator {
   padding: 2rem;
+  height: 50%;
   width: 100%;
   text-align: center;
 }
@@ -251,7 +259,6 @@ h3 {
 
   .bg {
     height: 95%;
-    padding: 3rem;
   }
 
   .circle {
@@ -278,12 +285,8 @@ h3 {
     font-size: 40%;
   }
 
-  .choice-picker {
-    margin-bottom: 16rem;
-  }
-
   .tag {
-    padding: 1r;
+    padding: 1rem;
   }
 }
 
