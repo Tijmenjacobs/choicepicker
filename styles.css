@@ -70,7 +70,6 @@ p {
   );
   backdrop-filter: blur(2rem);
   width: 80%;
-  height: 80%;
   max-height: 120rem;
   border-radius: 5px;
   z-index: 2;
@@ -204,6 +203,7 @@ p {
 @media (max-width: 93.75em) {
   .bg {
     height: 90%;
+    padding: 3rem;
   }
 
   .circle {
@@ -266,9 +266,9 @@ p {
     visibility: hidden;
   }
 
-  .choice-picker {
+  /* .choice-picker {
     margin-bottom: 6rem;
-  }
+  } */
 
   #textarea {
     width: 90%;
