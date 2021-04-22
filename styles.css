@@ -54,6 +54,7 @@ p {
     var(--color-green),
     var(--color-blue)
   );
+  padding: 2rem 0;
 }
 
 /*BG */
@@ -162,7 +163,7 @@ p {
 
 .joke-simulator {
   padding: 2rem;
-  max-height: 40%;
+  min-height: 40%;
   width: 100%;
   text-align: center;
 }
@@ -200,8 +201,7 @@ p {
 /* Footer */
 
 .footer {
-  padding: 2rem;
-  margin-top: 1rem;
+  padding: 1rem;
 }
 
 .red {
@@ -216,7 +216,6 @@ p {
   }
 
   .bg {
-    height: 90%;
     padding: 3rem;
   }
 
@@ -272,7 +271,7 @@ p {
   }
 
   .bg {
-    height: 95%;
+    max-height: 190rem;
   }
 
   .circle {
@@ -292,7 +291,7 @@ p {
 
 @media (max-width: 31.25em) {
   html {
-    font-size: 40%;
+    font-size: 35%;
   }
 
   .tag {
