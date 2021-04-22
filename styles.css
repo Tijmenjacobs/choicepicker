@@ -266,9 +266,10 @@ p {
     visibility: hidden;
   }
 
-  /* .choice-picker {
-    margin-bottom: 6rem;
-  } */
+  #textarea {
+    height: 25rem;
+    max-height: 25rem;
+  }
 
   #textarea {
     width: 90%;
